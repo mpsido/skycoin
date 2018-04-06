@@ -222,6 +222,7 @@ func NewApp(cfg Config) *App {
 		sendCmd(),
 		statusCmd(),
 		transactionCmd(),
+		trezorAddressGenCmd(),
 		versionCmd(),
 		walletBalanceCmd(cfg),
 		walletDirCmd(),
